@@ -6,6 +6,12 @@
 3. Create issues according to what you wish to work on
 4. Rest of the project branch from this repo and submit pull requests to master
 
+### For Dev
+
+1. `bower install`
+2. `npm install`
+3. `grunt serve`
+
 #### Kanban?
 
 1. Use https://waffle.io/ integration to manage issues
