@@ -12,6 +12,8 @@
 2. `npm install`
 3. `gulp serve`
 
+4. Your server will run on localhost:3001. Login using the credentials: localStorageUser / cheese
+
 #### Kanban?
 
 1. Use https://waffle.io/ integration to manage issues
