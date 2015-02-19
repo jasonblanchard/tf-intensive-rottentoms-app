@@ -10,7 +10,7 @@
 
 1. `bower install`
 2. `npm install`
-3. `grunt serve`
+3. `gulp serve`
 
 #### Kanban?
 
