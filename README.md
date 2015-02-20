@@ -27,7 +27,7 @@ Below is a list of potential backlog ideas for you to work on :)
 2. Validate for unique only users from the user list (hard)
 3. Display validation messages (easy)
 
-### Logout Functionality
+### ~~Logout Functionality~~
  (medium)
 
 ### Register New User

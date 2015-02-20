@@ -8,6 +8,7 @@ angular.module('config', [])
     userNav: [
       { name: 'root.home', label: 'Home' },
       { name: 'root.search', label: 'Search' },
+      { name: 'root.signout', label: 'Sign Out' }
     ]
   })
   // Locale file locations?

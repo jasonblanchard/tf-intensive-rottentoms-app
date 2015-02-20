@@ -24,6 +24,11 @@ angular.module('core')
         return $q(function(resolve, reject){
           resolve($localStorage[USER_KEY])
         })
+      },
+      removeFromClient: function() {
+        return $q(function(resolve, reject) {
+          resolve(delete $localStorage[USER_KEY]);
+        })
       }
     }
   })

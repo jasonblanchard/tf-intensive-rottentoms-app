@@ -3,5 +3,6 @@ angular.module('modules', [
   'search',
   'navbar',
   'login',
-  'example'
+  'example',
+  'logout'
 ])

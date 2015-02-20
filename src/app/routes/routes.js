@@ -7,7 +7,8 @@ angular.module('routes', [
   .constant('URLMAP', { // make sure they have a leading slash
     'home'  : '/',
     'search': '/search',
-    'signin': '/login'
+    'signin': '/login',
+    'signout': '/signout'
   })
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     // $locationProvider.hashPrefix('!');
