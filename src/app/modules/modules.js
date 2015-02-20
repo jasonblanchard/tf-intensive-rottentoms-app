@@ -4,5 +4,6 @@ angular.module('modules', [
   'navbar',
   'login',
   'example',
-  'logout'
+  'logout',
+  'movieDetails'
 ])

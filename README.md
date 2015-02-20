@@ -48,7 +48,7 @@ Below is a list of potential backlog ideas for you to work on :)
 1. Same as movie list
 
 ### Movie Details (medium)
-1. Route, resolve, API call,...
+1. ~~Route, resolve, API call,...~~
 
 ### Other
 1. Loading display for each page (medium)

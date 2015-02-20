@@ -1,0 +1,14 @@
+<div class="container">
+  <h3>Movie Details for {{movieDetails.movie.title}}</h3>
+  <img ng-src='{{movieDetails.movie.posters.thumbnail}}' />
+  <ul>
+    <li>Year: {{movieDetails.movie.year}}</li>
+    <li>Rating: {{movieDetails.movie.mpaa_rating}}</li>
+  </ul>
+  
+  <div>
+    <h4>Full details</h4>
+    {{movieDetails}}
+  </div>
+
+</div>

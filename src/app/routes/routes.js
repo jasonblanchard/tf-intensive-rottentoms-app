@@ -8,7 +8,8 @@ angular.module('routes', [
     'home'  : '/',
     'search': '/search',
     'signin': '/login',
-    'signout': '/signout'
+    'signout': '/signout',
+    'movieDetails':'/:id/details'
   })
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     // $locationProvider.hashPrefix('!');

@@ -15,7 +15,7 @@
     </thead>
     <tbody>
       <tr ng-repeat="movie in search.searchResults track by movie.id">
-        <td>{{ :: movie.title }}</td>
+        <td><a ui-sref='root.movieDetails({id: movie.id})'>{{ :: movie.title }}</a></td>
         <td>{{ :: movie.year }}</td>
         <td>{{ :: movie.mpaa_rating }}</td>
         <td>{{ :: movie.runtime }}</td>
