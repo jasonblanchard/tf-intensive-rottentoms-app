@@ -8,7 +8,8 @@ angular.module('core', [
   .constant('COREURL', 'app/core/')
   .config(function(iocMapProvider, cfpLoadingBarProvider){
     iocMapProvider.map({
-      'userGateway': 'lsUserGateway'
+      'userGateway': 'lsUserGateway',
+      'settingsGateway': 'lsSettingsGateway'
     })
     cfpLoadingBarProvider.includeSpinner = false;
   });

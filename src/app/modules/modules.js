@@ -5,5 +5,6 @@ angular.module('modules', [
   'login',
   'example',
   'logout',
-  'movieDetails'
+  'movieDetails',
+  'settings'
 ])

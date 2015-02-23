@@ -9,7 +9,8 @@ angular.module('routes', [
     'search': '/search',
     'signin': '/login',
     'signout': '/signout',
-    'movieDetails':'/:id/details'
+    'movieDetails':'/:id/details',
+    'settings':'/settings'
   })
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     // $locationProvider.hashPrefix('!');
@@ -20,10 +21,10 @@ angular.module('routes', [
       })
     $urlRouterProvider.otherwise('/');
   })
-  .factory('globalResolve', function($q, fetchUserFromClient){
+  .factory('globalResolve', function($q, fetchUserFromClient, fetchSettingsFromClient){
     // invoke the promises straight away, only happens once per page load
     //  i.e. doesn't happen after each route change
-    return $q.all([fetchUserFromClient()])
+    return $q.all([fetchUserFromClient(), fetchSettingsFromClient()])
   })
   .run(function($rootScope, $stateParams){
     $rootScope.$on('$stateChangeError',

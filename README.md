@@ -56,6 +56,8 @@ Below is a list of potential backlog ideas for you to work on :)
 3. Swap out localStorage login for OAuth login  (medium/hard)
 4. Swap out RottenTomatoes for OMDB or json-server (easy)
 
+### ~~Add a user settings page~~
+
 ## Endpoint Docs
 
 http://developer.rottentomatoes.com/

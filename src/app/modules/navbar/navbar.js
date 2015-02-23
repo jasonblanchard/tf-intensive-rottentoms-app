@@ -5,6 +5,7 @@ angular.module('navbar', [
   ])
   .constant('NAVBARURL', 'app/modules/navbar/')
   .directive('navigationBar', function(
+    Settings,
     NAVBARURL
   ){
     return {
@@ -18,6 +19,7 @@ angular.module('navbar', [
       controller: function(){
         var vm = this;
         vm.brand = _.find(vm.navigation, { brand: true }) || vm.navigation[0];
+        vm.settings = Settings.data;
       }
     }
   });

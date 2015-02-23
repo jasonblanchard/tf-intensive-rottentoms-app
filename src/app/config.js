@@ -8,6 +8,7 @@ angular.module('config', [])
     userNav: [
       { name: 'root.home', label: 'Home' },
       { name: 'root.search', label: 'Search' },
+      { name: 'root.settings', label: 'Settings' },
       { name: 'root.signout', label: 'Sign Out' }
     ]
   })
