@@ -9,11 +9,11 @@ angular.module('search')
     paginatedMovies = PaginatedMovies;
     function search(searchTerm) {
       if (settings.filterRelevantStarWars === true) {
-        if ( /Star Wars/g.test(searchTerm) ){
+        if ( /Star Wars/i.test(searchTerm) ){
           var filteredMovies = [];
 
           for(var i=0; i < movies.length; i++) {
-            if (/Return of the Jedi|Empire Strikes Back|A New Hope/.test(movies[i].title)) {
+            if (/return of the jedi|empire strikes back|a new hope/i.test(movies[i].title)) {
               filteredMovies.push(movies[i]);
             }
           }
