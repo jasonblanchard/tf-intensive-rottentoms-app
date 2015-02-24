@@ -1,5 +1,10 @@
 <form name="settingsForm" ng-submit="form.submit(form.entity)" novalidate>
-  <input type="checkbox" ng-model="form.entity.isAwesome" name="isAwesome" id="isAwesome"</input> <label for='isAwesome'>Are you awesome?</label>
+  <div>
+    <input type="checkbox" ng-model="form.entity.isAwesome" name="isAwesome" id="isAwesome"</input> <label for='isAwesome'>Are you awesome?</label>
+  </div>
+  <div>
+    <input type="checkbox" ng-model="form.entity.filterRelevantStarWars" name="filterRelevantStarWars" id="filterRelevantStarWars"</input> <label for='filterRelevantStarWars'>Only show relevant Star Wars films?</label>
+  </div>
 
   <div>
     <button type="submit" class="btn btn-success">Save</button>

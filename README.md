@@ -57,6 +57,7 @@ Below is a list of potential backlog ideas for you to work on :)
 4. Swap out RottenTomatoes for OMDB or json-server (easy)
 
 ### ~~Add a user settings page~~
+1. ~~Star Wars Filter~~
 
 ## Endpoint Docs
 

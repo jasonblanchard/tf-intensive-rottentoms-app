@@ -4,6 +4,7 @@ angular.module('core')
       constructor: function() {
         BaseEntity.apply(this, arguments);
         this.set('isAwesome', false);
+        this.set('filterRelevantStarWars', false);
       }
     })
     return new Settings();

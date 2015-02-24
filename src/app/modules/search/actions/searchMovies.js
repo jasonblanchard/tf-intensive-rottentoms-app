@@ -3,7 +3,8 @@ angular.module('search')
   .factory('searchMovies', function(
     PaginatedMovies,
     paginationDefaults,
-    moviesGateway
+    moviesGateway,
+    searchDataFilter
   ){
     // could use a base action here, then decorate with loading bar calls/analytics/etc..
     return function(keywords, pagination){
@@ -11,6 +12,7 @@ angular.module('search')
       return moviesGateway.search(keywords, pagination)
         .then(function(response){
           PaginatedMovies.set(response.data.movies)
+          searchDataFilter(keywords);
           PaginatedMovies.total = response.data.total;
           PaginatedMovies.setPagination(_.extend({
             total: response.data.total
